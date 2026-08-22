@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Test</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FIRST PAGE -->
+
+    <div class="container" id="mainPage">
+
+        <div class="card">
+
+            <h1>I know u miss me</h1>
+
+            <p>Be honest.</p>
+
+            <div class="button-area">
+
+                <button 
+                    id="noButton"
+                    onclick="moveButton()">
+                    No, I don't
+                </button>
+
+                <button 
+                    id="yesButton"
+                    onclick="passedTest()">
+                    Obiv I do every day
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SUCCESS PAGE -->
+
+    <div class="container hidden" id="successPage">
+
+        <div class="card">
+
+            <h1>Congratulations! 🎉</h1>
+
+            <p>
+                U have passed the test.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
